@@ -12,7 +12,7 @@
  ### Bootloader
   * [reFind](https://www.rodsbooks.com/refind/)
   * ![](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/reFind.jpg)
-  **DUAL BOOT** : Ventura 13.5 / Windows 11 
+  **TRIPLE BOOT** : Ventura 13.6.7 / Windows 11 / Linux Mint
 
 ## Configuration
 
