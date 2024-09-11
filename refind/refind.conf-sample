@@ -9,7 +9,8 @@
 # when rEFInd launches, in which case that keypress is interpreted as a
 # shortcut key. If no matching shortcut is found, rEFInd displays its
 # menu with no timeout.
-#timeout 20
+#
+timeout 20
 
 # Set the logging level. When set to 0, rEFInd does not log its actions.
 # When set to 1 or above, rEFInd creates a file called refind.log in
@@ -71,7 +72,7 @@ use_nvram false
 # Default is none of these (all elements active)
 #
 #hideui singleuser
-hideui label
+#hideui all
 
 # Set the name of a subdirectory in which icons are stored. Icons must
 # have the same names they have in the standard directory. The directory
@@ -119,7 +120,7 @@ hideui label
 # big icons, respectively.
 #
 #small_icon_size 96
-#big_icon_size 96
+#big_icon_size 256
 
 # Custom images for the selection background. There is a big one (144 x 144)
 # for the OS icons, and a small one (64 x 64) for the function icons in the
@@ -207,19 +208,19 @@ hideui label
 # is mutually exclusive with the enable_touch feature. If both
 # are uncommented, the one read most recently takes precedence.
 #
-enable_mouse
+#enable_mouse
 
 # Size of the mouse pointer, in pixels, per side.
 # Default is 16
 #
-mouse_size 16
+#mouse_size 16
 
 # Speed of mouse tracking. Higher numbers equate to faster
 # mouse movement. This option requires that enable_mouse be
 # uncommented.
 # Legal values are between 1 and 32. Default is 4.
 #
-mouse_speed 8
+#mouse_speed 4
 
 # Launch specified OSes in graphics mode. By default, rEFInd switches
 # to text mode and displays basic pre-launch information when launching
@@ -284,7 +285,7 @@ mouse_speed 8
 # name, or partition GUID) and a full pathname.
 # Default is an empty list (nothing is excluded)
 #
-dont_scan_tools ESP:/EFI/ubuntu/mmx64.efi,shimx64.efi,
+#dont_scan_tools ESP2:/EFI/ubuntu/mmx64.efi,gptsync_x64.efi
 
 # Boot loaders that can launch a Windows restore or emergency system.
 # These tend to be OEM-specific.
@@ -385,8 +386,8 @@ dont_scan_tools ESP:/EFI/ubuntu/mmx64.efi,shimx64.efi,
 # the ESP, unless you precede the directory name by a filesystem name or
 # partition unique GUID, as in "myvol:EFI/somedir" to exclude EFI/somedir
 # from the scan on the myvol volume but not on other volumes.
-
-dont_scan_dirs ESP:/EFI/boot,EFI/Dell,EFI/memtest86
+#
+#dont_scan_dirs ESP:/EFI/boot,EFI/Dell,EFI/memtest86
 
 # Files that should NOT be included as EFI boot loaders (on the
 # first line of the display). If you're using a boot loader that
@@ -411,7 +412,7 @@ dont_scan_dirs ESP:/EFI/boot,EFI/Dell,EFI/memtest86
 # specify "+" as the first item in the new list; if you don't, then
 # items from the default list are likely to appear.
 #
-dont_scan_files BOOTx64.efi,BOOT.efi,mmx64.efi,shimx64.efi,fbx64.efi,mmx64.efi
+#dont_scan_files shim.efi,MokManager.efi
 
 # EFI NVRAM Boot#### variables that should NOT be presented as loaders
 # when "firmware" is an option to "scanfor". The comma-separated list
@@ -423,6 +424,7 @@ dont_scan_files BOOTx64.efi,BOOT.efi,mmx64.efi,shimx64.efi,fbx64.efi,mmx64.efi
 # inclusion of built-in EFI shells.
 #
 #dont_scan_firmware HARDDISK,shell,"Removable Device"
+
 # Scan for Linux kernels that lack a ".efi" filename extension. This is
 # useful for better integration with Linux distributions that provide
 # kernels with EFI stub loaders but that don't give those kernels filenames
@@ -433,7 +435,8 @@ dont_scan_files BOOTx64.efi,BOOT.efi,mmx64.efi,shimx64.efi,fbx64.efi,mmx64.efi
 # lack ".efi" extensions. Passing this option a "0", "false", or "off" value
 # causes kernels without ".efi" extensions to NOT be scanned.
 # Default is "true" -- to scan for kernels without ".efi" extensions.
-scan_all_linux_kernels false
+#
+#scan_all_linux_kernels false
 
 # Combine all Linux kernels in a given directory into a single entry.
 # When so set, the kernel with the most recent time stamp will be launched
@@ -683,6 +686,12 @@ menuentry "Windows via shell script" {
 # it may serve as a starting point. Note that you'll almost
 # certainly need to change the "volume" line for this example
 # to work.
+menuentry "My macOS" {
+    icon \EFI\refind\icons\os_mac.png
+    volume "macOS boot"
+    loader \System\Library\CoreServices\boot.efi
+    disabled
+}
 
 # The firmware_bootnum token takes a HEXADECIMAL value as an option
 # and sets that value using the EFI's BootNext variable and then
@@ -699,5 +708,3 @@ menuentry "macOS via BootNext" {
     firmware_bootnum 80
     disabled
 }
-
-include themes/rEFInd-glassy/theme.conf
