@@ -1,5 +1,5 @@
 # HACKINTOSH MSI B360M PRO-VD intel i7 9700K
-[MSI B360M PRo VD](https://www.msi.com/Motherboard/B360M-PRO-VD/Specification) DVI_UHD630_i7-9700K
+[MSI B360M PRo VD](https://www.msi.com/Motherboard/B360M-PRO-VD/Specification) Rx580_i7-9700K
 # Hackintosh iMac19,1 2019
 
   ![](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/Pic.jpg)
@@ -16,7 +16,7 @@
 
 ## Configuration
 
-| Model     | iMac 19,1                   | Version        | Ventura 13.5        |
+| Model     | iMac 19,1                   | Version        | Ventura 13.7        |
 | :-------- | :---------------------------| :------------- | :------------------ |
 | Processor | Intel Core i7-9700K         | Graphics       | Sapphire Rx580 8Go  |
 | Memory    | Gskill 2667MHz DDR4 8GB x2  | Storage        | WD_Black SN770      |
