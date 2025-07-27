@@ -45,7 +45,7 @@
 | 🔊 Audio              | Speaker & Mic — Functional ✅                                                        |
 | 🖱️ Input Devices      | Keyboard & Mouse — Fully responsive ✅                                                |
 | 🔌 USB Ports          | Mapped & working ✅ ([USBToolBox](https://github.com/USBToolBox/tool))               |
-| 🌙 Sleep/Wake         | Working ✅ *(Requires manual display reactivation)*                                  |
+| 🌙 Sleep/Wake         | Working ✅ *(Requires press power button to wakeUp)*                                  |
 
 ---
 
