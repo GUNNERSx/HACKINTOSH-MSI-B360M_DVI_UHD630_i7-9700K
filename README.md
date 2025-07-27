@@ -2,7 +2,7 @@
 🎯 [MSI B360M PRO-VD Motherboard Specs](https://www.msi.com/Motherboard/B360M-PRO-VD/Specification)  
 💻 Mac Model: iMac19,1 (2019 Edition)  
 
-![Hackintosh Build](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/Pic.jpg)  
+![Hackintosh Build](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/Sequoia.webp)  
 
 ---
 
@@ -17,7 +17,7 @@
 | 📶 Wifi           | Fenvi wifi intel 6E AX210    | 🖼️ Monitor            | Zowie XL2411P 144Hz  |
 
 
-![Specs](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/specs.jpg)  
+![Specs](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/Specs.webp)  
 
 ---
 
@@ -25,7 +25,7 @@
 
 🔧 **Version**: [OpenCore 1.0.5](https://github.com/acidanthera/OpenCorePkg/releases)  
 🚀 **Bootloader**: [reFind](https://www.rodsbooks.com/refind/)  
-![reFind Boot Manager](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/reFind.jpg)  
+![reFind Boot Manager](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/reFind.webp)  
 
 💡 **TRIPLE BOOT**  
 - 🍏 macOS Sequoia 15.xx  
