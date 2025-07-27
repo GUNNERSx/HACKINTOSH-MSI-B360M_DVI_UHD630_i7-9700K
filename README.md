@@ -6,15 +6,15 @@
 
 ---
 
-## 🧬 System Configuration  
+## 🛠️ System Configuration  
 
 | 💻 **Model**     | 🖥️ iMac19,1 (2019)         | 🧩 **macOS Version** | Ventura 13.7           |
 |------------------|-----------------------------|----------------------|-------------------------|
-| 🧠 Processor      | Intel Core i7-9700K          | 🎨 Graphics           | Sapphire RX580 8GB      |
-| 🧵 Memory         | G.Skill DDR4 2667MHz 8GB x2 | 💾 Storage            | WD Black SN770          |
-| 🖥️ Motherboard    | MSI B360M PRO-VD             | 🧬 BIOS Revision       | AMI BIOS 7B53v1C        |
-| 🌐 Network        | Realtek RTL8111H Gigabit     | 🔊 Audio              | Realtek ALC887          |
-| 📶 Wifi        | Intel AX210                      | 🖼️ Monitor            | Zowie XL2411P 144Hz   |
+| 🧠 Processor      | Intel Core i7-9700K          | 🎨 Graphics           | Sapphire RX580 8GB   |
+| 🧵 RAM            | G.Skill DDR4 2667MHz 8GB x2  | 💾 Storage            | WD Black SN770       |
+| 🖥️ Motherboard    | MSI B360M PRO-VD             | 🧬 BIOS Revision       | AMI BIOS 7B53v1C    |
+| 🌐 Network        | Realtek RTL8111H Gigabit     | 🔊 Audio              | Realtek ALC887       |
+| 📶 Wifi           | Fenvi wifi intel 6E AX210    | 🖼️ Monitor            | Zowie XL2411P 144Hz  |
 
 
 ![Specs](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/specs.jpg)  
