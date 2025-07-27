@@ -14,14 +14,14 @@
 | 🧵 Memory         | G.Skill DDR4 2667MHz 8GB x2 | 💾 Storage            | WD Black SN770          |
 | 🖥️ Motherboard    | MSI B360M PRO-VD             | 🧬 BIOS Revision       | AMI BIOS 7B53v1C        |
 | 🌐 Network        | Realtek RTL8111H Gigabit     | 🔊 Audio              | Realtek ALC887          |
-| 📺 Display        | BenQ                         | 🖼️ Monitor            | Zowie XL2411P — 144Hz   |
+| 📶 Wifi        | Intel AX210                      | 🖼️ Monitor            | Zowie XL2411P 144Hz   |
 
 
 ![Specs](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/specs.jpg)  
 
 ---
 
-## ⚙️ OpenCore Bootloader  
+## ⚙️ OpenCore + reFind Bootloader  
 
 🔧 **Version**: [OpenCore 1.0.5](https://github.com/acidanthera/OpenCorePkg/releases)  
 🚀 **Bootloader**: [reFind](https://www.rodsbooks.com/refind/)  
