@@ -3,6 +3,20 @@
 💻 Mac Model: iMac19,1 (2019 Edition)  
 
 ![Hackintosh Build](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/Pic.jpg)  
+
+---
+
+## 🧬 System Configuration  
+
+| 💻 **Model**     | 🖥️ iMac19,1 (2019)         | 🧩 **macOS Version** | Ventura 13.7           |
+|------------------|-----------------------------|----------------------|-------------------------|
+| 🧠 Processor      | Intel Core i7-9700K          | 🎨 Graphics           | Sapphire RX580 8GB      |
+| 🧵 Memory         | G.Skill DDR4 2667MHz 8GB x2 | 💾 Storage            | WD Black SN770          |
+| 🖥️ Motherboard    | MSI B360M PRO-VD             | 🧬 BIOS Revision       | AMI BIOS 7B53v1C        |
+| 🌐 Network        | Realtek RTL8111H Gigabit     | 🔊 Audio              | Realtek ALC887          |
+| 📺 Display        | BenQ                         | 🖼️ Monitor            | Zowie XL2411P — 144Hz   |
+
+
 ![Specs](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/specs.jpg)  
 
 ---
@@ -17,18 +31,6 @@
 - 🍏 macOS Sequoia 15.xx  
 - 🪟 Windows 11  
 - 🐧 Linux Mint 22  
-
----
-
-## 🧬 System Configuration  
-
-| 💻 **Model**     | 🖥️ iMac19,1 (2019)         | 🧩 **macOS Version** | Ventura 13.7           |
-|------------------|-----------------------------|----------------------|-------------------------|
-| 🧠 Processor      | Intel Core i7-9700K          | 🎨 Graphics           | Sapphire RX580 8GB      |
-| 🧵 Memory         | G.Skill DDR4 2667MHz 8GB x2 | 💾 Storage            | WD Black SN770          |
-| 🖥️ Motherboard    | MSI B360M PRO-VD             | 🧬 BIOS Revision       | AMI BIOS 7B53v1C        |
-| 🌐 Network        | Realtek RTL8111H Gigabit     | 🔊 Audio              | Realtek ALC887          |
-| 📺 Display        | BenQ                         | 🖼️ Monitor            | Zowie XL2411P — 144Hz   |
 
 ---
 
