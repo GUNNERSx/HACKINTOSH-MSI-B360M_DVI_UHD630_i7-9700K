@@ -9,14 +9,14 @@
 
 ## ⚙️ OpenCore Bootloader  
 
-🔧 **Version**: [OpenCore 1.0.1](https://github.com/acidanthera/OpenCorePkg/releases)  
+🔧 **Version**: [OpenCore 1.0.5](https://github.com/acidanthera/OpenCorePkg/releases)  
 🚀 **Bootloader**: [reFind](https://www.rodsbooks.com/refind/)  
 ![reFind Boot Manager](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/reFind.jpg)  
 
 💡 **TRIPLE BOOT**  
-- 🍏 macOS Ventura 13.6.7  
+- 🍏 macOS Sequoia 15.xx  
 - 🪟 Windows 11  
-- 🐧 Linux Mint  
+- 🐧 Linux Mint 22  
 
 ---
 
