@@ -1,45 +1,69 @@
-# HACKINTOSH MSI B360M PRO-VD intel i7 9700K
-[MSI B360M PRo VD](https://www.msi.com/Motherboard/B360M-PRO-VD/Specification) Rx580_i7-9700K
-# Hackintosh iMac19,1 2019
+# 🍎 HACKINTOSH — MSI B360M PRO-VD + Intel i7-9700K  
+🎯 [MSI B360M PRO-VD Motherboard Specs](https://www.msi.com/Motherboard/B360M-PRO-VD/Specification)  
+💻 Mac Model: iMac19,1 (2019 Edition)  
 
-  ![](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/Pic.jpg)
+![Hackintosh Build](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/Pic.jpg)  
+![Specs](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/specs.jpg)  
 
-  * Specification
-  ![](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/specs.jpg)
+---
 
-**OpenCore Version** : [1.0.1](https://github.com/acidanthera/OpenCorePkg/releases)
+## ⚙️ OpenCore Bootloader  
 
- ### Bootloader
-  * [reFind](https://www.rodsbooks.com/refind/)
-  * ![](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/reFind.jpg)
-  **TRIPLE BOOT** : Ventura 13.6.7 / Windows 11 / Linux Mint
+🔧 **Version**: [OpenCore 1.0.1](https://github.com/acidanthera/OpenCorePkg/releases)  
+🚀 **Bootloader**: [reFind](https://www.rodsbooks.com/refind/)  
+![reFind Boot Manager](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/reFind.jpg)  
 
-## Configuration
+💡 **TRIPLE BOOT**  
+- 🍏 macOS Ventura 13.6.7  
+- 🪟 Windows 11  
+- 🐧 Linux Mint  
 
-| Model     | iMac 19,1                   | Version        | Ventura 13.7        |
-| :-------- | :---------------------------| :------------- | :------------------ |
-| Processor | Intel Core i7-9700K         | Graphics       | Sapphire Rx580 8Go  |
-| Memory    | Gskill 2667MHz DDR4 8GB x2  | Storage        | WD_Black SN770      |
-| Mobo      | MSI B360M PRo VD            | BIOS revision  | AMI BIOS 7B53v1C    |
-| Network   | RTL8111H Gigabit            | Audio          | Realtek ALC887      | 
-| Display   | BenQ                        | Monitor 144Hz  | Zowie XL2411P  24"  |
+---
 
- ### Working
- * GPU: [Sapphire NITRO+ RX 580 Special Edition](https://www.techpowerup.com/gpu-specs/sapphire-nitro-rx-580-special-edition.b4912) ✅
- * Wifi 6 AX210 AirportItlwm ✅
- * Bluetooth IntelBluetoothFirmware ✅
- * Network: RTL8111H Gigabit ✅ (with [Realtek RTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X))
- * Audio：spkear & mic working ✅
- * Input：keyboard mouse ✅
- * USB port：Working ✅ (Mapped with [USBTOOLBox](https://github.com/USBToolBox/tool))
- * Sleep/Wake：working ✅ (Have to turn off display and turn it back ON after system wake UP)
- 
- 
- ### Post installation
-  * I generated random Platform ID, use [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) or [OCAT](https://github.com/ic005k/OCAuxiliaryTools/releases) to generate your own Serial/UUID/MLB,
-  * ACPI are generate with [Corpnewt SSDTime](https://github.com/corpnewt/SSDTTime) under Windows11 manually, default from [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#acpi) 
-   are in EFI/OC/ACPI/Back
-   
- ## Credit
+## 🧬 System Configuration  
 
- - Thanks to [Matcha-xiaobin](https://github.com/Matcha-xiaobin/EFI-B360m_d2v_OpenCore_dvi_uhd630) for DVI patch!
+| 💻 **Model**     | 🖥️ iMac19,1 (2019)         | 🧩 **macOS Version** | Ventura 13.7           |
+|------------------|-----------------------------|----------------------|-------------------------|
+| 🧠 Processor      | Intel Core i7-9700K          | 🎨 Graphics           | Sapphire RX580 8GB      |
+| 🧵 Memory         | G.Skill DDR4 2667MHz 8GB x2 | 💾 Storage            | WD Black SN770          |
+| 🖥️ Motherboard    | MSI B360M PRO-VD             | 🧬 BIOS Revision       | AMI BIOS 7B53v1C        |
+| 🌐 Network        | Realtek RTL8111H Gigabit     | 🔊 Audio              | Realtek ALC887          |
+| 📺 Display        | BenQ                         | 🖼️ Monitor            | Zowie XL2411P — 144Hz   |
+
+---
+
+## ✅ Working Components  
+
+| 🔧 **Component**       | 📝 **Status & Notes**                                                                |
+|------------------------|--------------------------------------------------------------------------------------|
+| 🎮 GPU                | [Sapphire RX580 Nitro+ Special Edition](https://www.techpowerup.com/gpu-specs/sapphire-nitro-rx-580-special-edition.b4912) ✅ |
+| 📶 Wi-Fi              | Intel AX210 using AirportItlwm — Fully supported ✅                                   |
+| 📡 Bluetooth          | IntelBluetoothFirmware — Stable ✅                                                   |
+| 🌐 Ethernet           | Realtek RTL8111H — Works with [driver](https://github.com/Mieze/RTL8111_driver_for_OS_X) ✅ |
+| 🔊 Audio              | Speaker & Mic — Functional ✅                                                        |
+| 🖱️ Input Devices      | Keyboard & Mouse — Fully responsive ✅                                                |
+| 🔌 USB Ports          | Mapped & working ✅ ([USBToolBox](https://github.com/USBToolBox/tool))               |
+| 🌙 Sleep/Wake         | Working ✅ *(Requires manual display reactivation)*                                  |
+
+---
+
+## 🧱 Post Installation  
+
+🛠️ Platform ID was generated randomly — use:  
+- 🔧 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)  
+- 🧰 [OCAT](https://github.com/ic005k/OCAuxiliaryTools/releases)  
+
+🧬 ACPI Tables:  
+- Built using [Corpnewt SSDTTime](https://github.com/corpnewt/SSDTTime) on Windows 11  
+- Default tables from [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#acpi) included in `EFI/OC/ACPI/Back`
+
+---
+
+## 🙌 Credits  
+
+- Huge shout-out to [Matcha-xiaobin](https://github.com/Matcha-xiaobin/EFI-B360m_d2v_OpenCore_dvi_uhd630) for the DVI patch!  
+- Thanks to all developers & maintainers contributing to the Hackintosh community 🎉  
+
+---
+
+🖋️ _Built for performance, crafted with care. This guide is meant to help others replicate a stable Hackintosh on MSI's B360M platform. Feel free to share, fork, or suggest improvements!_
