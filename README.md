@@ -24,7 +24,7 @@
 ## 🔄 Bootloader  
 
 🌀 [**OpenCore 1.0.5**](https://github.com/acidanthera/OpenCorePkg/releases)  
-🚀 [**ReFind Manager**](https://www.rodsbooks.com/refind/)  
+🚀 [**ReFind Boot manager**](https://www.rodsbooks.com/refind/)  
 ![reFind Boot Manager](https://github.com/GUNNERSx/HACKINTOSH-MSI-B360M_DVI_UHD630_i7-9700K/blob/main/reFind.webp)  
 
 💡 **TRIPLE BOOT**  
